@@ -1,7 +1,7 @@
 const {Pool} = require('pg');
-const {env} = require('../properties/properties');
+const {dbenv} = require('../properties/properties');
 
-const connectionString = env;
+const connectionString = dbenv;
 
 const pool = new Pool({
   connectionString ,
