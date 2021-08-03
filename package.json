@@ -4,7 +4,7 @@
   "description": "servidor de prueba",
   "main": "index.js",
   "scripts": {
-    "test": "npm start"
+    "start": "node ./src/index.js"
   },
   "author": "",
   "license": "ISC",
