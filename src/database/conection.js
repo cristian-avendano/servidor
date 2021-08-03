@@ -1,6 +1,7 @@
-const { Pool} = require('pg');
+const {Pool} = require('pg');
+const {env} = require('../properties/properties');
 
-const connectionString = process.env.DATABASE_URL;
+const connectionString = env;
 
 const pool = new Pool({
   connectionString ,

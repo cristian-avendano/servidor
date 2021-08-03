@@ -1,7 +1,6 @@
 
-const express = require('express')
-const app = express()
-const port = 3000
+const express = require('express');
+const app = express();
 
 const api = require('./rest/api');
 
@@ -19,4 +18,4 @@ app.use(function (err, req, res, next) {
 });
 
 
-module.exports =app;
+module.exports = app;
