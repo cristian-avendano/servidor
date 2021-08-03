@@ -8,7 +8,7 @@ var router = express.Router();
 router.get('/', respuesta)
 // define the about route
 router.get('/about', function(req, res) {
-  res.send('About birds');
+  res.send('About birdos');
 });
 
 module.exports = router;
